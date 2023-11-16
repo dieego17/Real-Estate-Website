@@ -18,7 +18,7 @@
 
 .header__section{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: #566A74;
 }
@@ -44,6 +44,7 @@
 }
 .header__list:hover{
     transform: scale(1.2);
+    text-decoration: underline;
 }
 
 .header__link{
