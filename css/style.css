@@ -1,0 +1,148 @@
+@font-face {
+    font-family: rlight;
+    src: url(../assets/fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: rmedium;
+    src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+
+/* PARTE DE DUBAI */
+.container__dubai{
+    background-color: #F8F8F8;
+    padding: 40px 0px 70px;
+}
+.article__dubai{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.dubai__h2{
+    font-family: rlight;
+    color: #6D5736;
+    text-align: center;
+    font-size: 2rem;
+}
+.dubai__div{
+    display: flex;
+    flex-direction: column;
+}
+.dubai__text{
+    font-family: rlight;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #6D5736;
+    padding: 10px 0px;
+}
+.dubai__text:hover{
+    text-decoration: underline;
+}
+.img__dubai{
+    width: 700px;
+    box-shadow: 0px 0px 9px 0px #000000;
+}
+.imagendubai__position{
+    position: relative;
+}
+.card__dubai{
+    position: absolute;
+    border: 1px solid #2B2B33;
+    background-color: #2B2B33;
+    width: 300px;
+    text-align: center;
+    color: #ffffff;
+    top: 240px;
+    right: 500px;
+    z-index: 1;
+}
+.h3__dubai{
+    font-family: rmedium;
+}
+.p__dubai{
+    font-family: rlight;
+}
+.div__residencial{
+    border: 1px solid #FF4364;
+    background-color: #FF4364;
+    color: #ffffff;
+    padding: 0px 30px;
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+}
+
+/* PARTE DE TARJETAS */
+.container__card{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.article__title--card{
+    margin: 30px 0px 0px;
+}
+.card__h2{
+    font-family: rmedium;
+    color: #6D5736;
+}
+.article__subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__text{
+    padding: 0px 15px;
+    font-family: rlight;
+    color: #6D5736;
+}
+.div__text--underline{
+    border-bottom: 1px solid #6D5736;
+}
+
+/* CARDS */
+.article__card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container__cards{
+    background-color: #F8F8F8;
+    width: 24%;
+    margin: 80px 0px 40px;
+    box-shadow: 0px 0px 15px -7px #000000;
+    transition: transform 1s ease;
+}
+.container__cards:hover{
+    transform: translateY(-80px);
+}
+
+.img__card{
+    width: 100%;
+}
+.h3__cards{
+    font-family: rmedium;
+    color: #6D5736;
+}
+.p__cards{
+    font-family: rlight;
+    color: #6D5736;
+}
+/* BOTON */
+.conteiner__boton{
+    margin: 20px 0px;
+}
+.botton__more{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2B2B33;
+    padding: 10px 60px;
+    font-family: rlight;
+    transition: letter-spacing 1s ease;
+}
+.botton__more:hover{
+    letter-spacing: 5px;
+}

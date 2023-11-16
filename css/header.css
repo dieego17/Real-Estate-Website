@@ -1,0 +1,219 @@
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/header-fondo.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 900px;
+    width: 100%;
+    position: relative;
+}
+/* HEADER */
+.title__link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 40px;
+    color: #ffffff;
+}
+.header__article{
+    font-family: rmedium;
+}
+
+.article__header{
+    font-size: 2.5rem;
+}
+.rubio__text{
+    font-size: 1rem;
+}
+.header__ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    padding: 0px 10px;
+    list-style-type: none;
+    transition: transform 1s ease;
+}
+.header__list:hover{
+    transform: scale(1.2);
+}
+
+.header__link{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: rlight;
+    font-size: 1.5rem;
+}
+.header__link:hover{
+    color: #6D5736; 
+}
+
+.header__hambur{
+    color: #ffffff;
+    font-size: 2rem;
+    transition: transform 1s ease;
+}
+.header__hambur:hover{
+    transform: scale(1.2);
+    color: #6D5736;
+}
+.colorMarron{
+    color: #6D5736;
+}
+    
+
+/* TEXTO Y FORMULARIO */
+.header__h2{
+    font-family: rmedium;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    text-align: center;
+    padding: 60px 0px 0px;
+}
+.article__form{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+.form__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: rlight;
+}
+.form__div{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label__form{
+    font-family: rmedium;
+    font-size: 1.4rem;
+    padding: 0px 0px 5px;
+}
+.input__form{
+    padding: 15px 70px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: none;
+    border: 1px solid #6D5736;
+    font-size: rlight;
+    outline: none;
+    color: #6D5736;
+}
+.input__form::placeholder{
+    font-size: 1.2rem;
+    text-align: left;
+    font-size: rlight;
+}
+
+.buscar{
+    margin: 35px 0px 0px;
+    background-color:#6D5736;
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-size: rlight;
+}
+.buscar:hover{
+    background-color: rgb(98, 78, 49);
+}
+
+/* VENTANA LOG IN */
+.displaynone{
+    display: none;
+}
+.displayflex{
+    display: flex;
+}
+.login__close{
+    text-decoration: none;
+    color: #6D5736;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+}
+.section__login{
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 5px;
+    position: relative;
+    position: absolute;
+    top: 80px;
+    right: 70px;
+    animation-name: moveLog;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes moveLog {
+    from{
+        transform: translateY(-1000px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.login__h3{
+    font-family: rmedium;
+    color: #6D5736;
+    font-size: 1.4rem;
+}
+.input__log{
+    margin: 5px 0px;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid #6D5736;
+    padding: 5px 10px;
+    font-family: rlight;
+    color: #6D5736;
+}
+.input__log::placeholder{
+    font-family: rlight;
+}
+.login__link{
+    text-decoration: none;
+    color: #6D5736;
+    padding: 0px 0px 0px 110px;
+    font-family: rlight;
+}
+.login__link:hover{
+    text-decoration: underline;
+}
+.button__log{
+    margin: 10px 0px 20px;
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid #6D5736;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: rlight;
+    color: #ffffff;
+    background-color: #6D5736;
+    text-decoration: none;
+}
+.button__log:hover{
+    background-color: rgb(98, 78, 49);
+}
