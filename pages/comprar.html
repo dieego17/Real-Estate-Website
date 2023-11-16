@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar - InmoRubio</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/comprar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="shortcut icon" href="../assets/images/casa.png" type="image/x-icon">
+    <!-- link para favicons -->
+    <script src="https://kit.fontawesome.com/3ed6284a33.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <section class="header__section">
+            <article class="header__article">
+                <a class="title__link" href="../index.html"><h1 class="article__header">Inmo <span class="rubio__text">Rubio</span></h1></a>
+            </article>
+            <nav class="header__nav">
+                <ul class="header__ul">
+                    <li class="header__list"><a href="../pages/comprar.html" class="header__link">Comprar</a></li>
+                    <li class="header__list"><a href="#" class="header__link">Alquilar</a></li>
+                    <li class="header__list"><a href="../pages/propietarios.html" class="header__link">Propietarios</a></li>
+                    <li class="header__list"><a href="#" class="header__link">Quiénes somos</a></li>
+                </ul>
+            </nav>
+            <article class="header__article">
+                <a href="#"><i class="header__hambur fa-solid fa-bars" id="header__hambur"></i></a>
+            </article>
+        </section>
+        <!-- POP UP DE INICIO DE SESIÓN EN HAMBURGUESA -->
+        <section class="section__login displaynone" id="section__login">
+            <a href="#"><i id="login__close" class="login__close fa-solid fa-xmark"></i></a>
+            <h3 class="login__h3">Iniciar Sesión</h3>
+            <input class="input__log" type="text" name="user" id="user" placeholder="Usuario">
+            <input class="input__log" type="password" name="pass" id="pass" placeholder="Contraseña">
+            <a class="login__link" href="../pages/form.html">No estoy registrado</a>
+            <a href="../index.html" class="button__log" id="button__log">Iniciar Sesión</a>
+        </section>
+
+        <section class="section__header">
+            <article class="article__title">
+                <h2 class="header__h2">ENCUENTRA <br> TU CASA PERFECTA</h2>
+            </article>
+            <article class="article__form">
+                <form class="form__header" action="">
+                    <div class="form__div">
+                        <label class="label__form" for="quiero">Quiero</label>
+                        <select class="input__form" name="" id="">
+                            <option value="comprar">Comprar</option>
+                            <option value="alquilar">Alquilar</option>
+                        </select>
+                    </div>
+                    <div class="form__div">
+                        <label class="label__form" for="ubicacion">Ubicación</label>
+                        <input class="input__form" type="text" name="ubi" id="ubi" placeholder="Municipio, barrio, zona">
+                    </div>
+                    <div class="form__div">
+                        <a class="input__form buscar" href="../pages/comprar.html">Buscar</a>
+                    </div>
+                    
+                </form>
+            </article>
+        </section>
+    </header>
+    
+
+
+    <footer class="footer">
+        <section class="container__footer">
+            <article class="article__footer">
+                <div class="div__contact">
+                    <input class="input__contact" type="email" name="email" id="email" placeholder="Email">
+                    <a class="button__contact" href="../pages/comprar.html">Suscribirse</a>
+                </div>
+                <div class="div__contact">
+                    <a href="https://www.facebook.com/?locale=es_ES"><i class="rrss fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="rrss fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/home"><i class="rrss fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/"><i class="rrss fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="div__contact">
+                    <div class="container__contact">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <p class="text__contact">+34 678989767</p>
+                    </div>
+                    <div class="container__contact">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p class="text__contact">inmorubio@rubio.es</p>
+                    </div>
+                </div>
+            </article>
+            <article class="container__table">
+                <table class="table">
+                    <tr class="table__tr">
+                        <th class="table__th">Inmo Rubio</th>
+                        <th class="table__th">Descubre</th>
+                        <th class="table__th">General</th>
+                        <th class="table__th">Dirección</th>
+                    </tr>
+                    <tr class="table__tr">
+                        <td class="table__td"><a class="table__link" href="#">Sobre nosotros</a></td>
+                        <td class="table__td"><a class="table__link" href="#">Propiedades a la venta</a></td>
+                        <td class="table__td"><a class="table__link" href="#">Términos</a></td>
+                        <td class="table__td"><a class="table__link1" href="#">Paseo de la Castellana, 216</a></td>
+                    </tr>
+                    <tr class="table__tr">
+                        <td class="table__td"><a class="table__link" href="#">Carrera</a></td>
+                        <td class="table__td"><a class="table__link" href="#">Propiedades en alquiler</a></td>
+                        <td class="table__td"><a class="table__link" href="#">Política de Privacidad</a></td>
+                        <td class="table__td"><a class="table__link1" href="#">Torre Realia | Oficina 777</a></td>
+                    </tr>
+                    <tr class="table__tr">
+                        <td class="table__td"><a class="table__link" href="#">Contactanos</a></td>
+                        <td class="table__td"><a class="table__link" href="#">Propietarios</a></td>
+                        <td class="table__td"></td>
+                        <td class="table__td"><a class="table__link1" href="#">Madrid, 28046</a></td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+    </footer>
+</div>
+<script src="../js/script.js"></script>
+</body>
+</html>

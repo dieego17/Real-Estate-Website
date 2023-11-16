@@ -1,0 +1,112 @@
+@font-face {
+    font-family: rlight;
+    src: url(../assets/fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: rmedium;
+    src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+body{
+    background-color: #D0DDE3;
+}
+.container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    min-width: 600px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+                "header"
+                "main"
+                "footer";
+}
+/* HEADER */
+.header{
+    grid-area: header;
+}
+.main{
+    grid-area: main;
+}
+
+/* IMAGÉN PRINCIPAL */
+.section__imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px 120px 60px;
+    text-align: center;
+}
+.article__imagen{
+    width: 100%;
+    position: relative;
+}
+.article__img{
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    z-index: 3;
+}
+
+/* CUADRADO TEXTO */
+.container__text{
+    display: none;
+    background-color: #566A74;
+    width: 300px;
+    height: 200px;
+    padding: 20px 40px;
+    position: absolute;
+    border-radius: 5px;
+    top: 50px;
+    left: -80px;
+    z-index: 4;
+}
+.h3__text{
+    font-family: rmedium;
+    color: #ffffff;
+    text-align: left;
+}
+.p__text{
+    padding: 10px 0px 0px;
+    font-family: rlight;
+    color: #ffffff;
+    text-align: justify;
+}
+
+/* CUADRADO FLECHA */
+.container__row{
+    display: none;
+    background-color: #566A74;
+    width: 100px;
+    padding: 30px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -20px;
+    right: -40px;
+    z-index: 4;
+}
+.row__container{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+/* CUADRADO VACIO */
+.container__cuadrado{
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -40px;
+    left: -50px;
+    border: 3px solid #566A74;
+    border-radius: 5px;
+}
+.text__off{
+    color: #ffffff;
+}
+
+.footer{
+    grid-area: footer;
+}
