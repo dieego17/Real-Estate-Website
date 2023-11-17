@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comprar - InmoRubio</title>
-    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/header_comprar.css">
     <link rel="stylesheet" href="../css/comprar.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/footer_comprar.css">
     <link rel="shortcut icon" href="../assets/images/casa.png" type="image/x-icon">
     <!-- link para favicons -->
     <script src="https://kit.fontawesome.com/3ed6284a33.js" crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
                     <li class="header__list"><a href="../pages/comprar.html" class="header__link">Comprar</a></li>
                     <li class="header__list"><a href="#" class="header__link">Alquilar</a></li>
                     <li class="header__list"><a href="../pages/propietarios.html" class="header__link">Propietarios</a></li>
-                    <li class="header__list"><a href="#" class="header__link">Quiénes somos</a></li>
+                    <li class="header__list"><a href="../pages/quienes.html" class="header__link">Quiénes somos</a></li>
                 </ul>
             </nav>
             <article class="header__article">
@@ -38,35 +38,159 @@
             <a class="login__link" href="../pages/form.html">No estoy registrado</a>
             <a href="../index.html" class="button__log" id="button__log">Iniciar Sesión</a>
         </section>
-
+        <!-- SUB - HEADER -->
         <section class="section__header">
-            <article class="article__title">
-                <h2 class="header__h2">ENCUENTRA <br> TU CASA PERFECTA</h2>
+            <article class="article__text">
+                <p class="article__number">+1000 Propiedades</p>
+                <h3 class="article__name">Diego <br> <strong class="apellido">Rubio</strong></h3>
             </article>
-            <article class="article__form">
-                <form class="form__header" action="">
-                    <div class="form__div">
-                        <label class="label__form" for="quiero">Quiero</label>
-                        <select class="input__form" name="" id="">
-                            <option value="comprar">Comprar</option>
-                            <option value="alquilar">Alquilar</option>
-                        </select>
-                    </div>
-                    <div class="form__div">
-                        <label class="label__form" for="ubicacion">Ubicación</label>
-                        <input class="input__form" type="text" name="ubi" id="ubi" placeholder="Municipio, barrio, zona">
-                    </div>
-                    <div class="form__div">
-                        <a class="input__form buscar" href="../pages/comprar.html">Buscar</a>
-                    </div>
-                    
-                </form>
+            <article class="article__card">
+                <img class="img__avatar" src="../assets/images/avatar.png" alt="">
+                <div class="card__rrss">
+                    <a class="font__cards1" href="https://twitter.com/home"><i class="font__cards fa-brands fa-twitter"></i></a>
+                    <a class="font__cards1" href="https://www.instagram.com/"><i class="font__cards fa-brands fa-instagram"></i></a>
+                    <a class="font__cards1" href="https://www.facebook.com/?locale=es_ES"><i class="font__cards fa-brands fa-facebook"></i></a>
+                </div>
+                    <p class="street__card">Paseo de la Castellana, Madrid</p>
+                <div class="container__contacts">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="text__contacts">+34 678 89 98 00</p>
+                </div>
+                <div class="container__contacts">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p class="text__contacts">prueba@prueba.com</p>
+                </div
             </article>
         </section>
     </header>
-    
-
-
+    <div class="container">
+        <main class="container__main">
+            <h2 class="main__title">Propiedades</h2>
+            <article class="article__cards">
+                <div class="container__tarjetas">
+                    <img class="img__cards" src="../assets/images/car-1.png" alt="">
+                    <div class="card__estancias">
+                        <div class="container__estancias">
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bath"></i>4 baños</p>
+                        </div>
+                        <div class="container__estancias"> 
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bed"></i>8 habitaciones</p>
+                        </div>
+                    </div>
+                    <div class="container__text">
+                        <p class="text__house">Casa</p>
+                        <h3 class="title__house">Sunrise House</h3>
+                        <p class="text__house">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="title__house">Más detalles<i class="row fa-solid fa-arrow-right"></i></h4>
+                    </div> 
+                </div>
+                <div class="container__tarjetas">
+                    <img class="img__cards" src="../assets/images/car-5.jpg" alt="">
+                    <div class="card__estancias">
+                        <div class="container__estancias">
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bath"></i>2 baños</p>
+                        </div>
+                        <div class="container__estancias"> 
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bed"></i>4 habitaciones</p>
+                        </div>
+                    </div>
+                    <div class="container__text">
+                        <p class="text__house">Penthouse</p>
+                        <h3 class="title__house">Rubio Apartaments</h3>
+                        <p class="text__house">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="title__house">Más detalles<i class="row fa-solid fa-arrow-right"></i></h4>
+                    </div> 
+                </div>
+                <div class="container__tarjetas">
+                    <img class="img__cards" src="../assets/images/car-3.jpg" alt="">
+                    <div class="card__estancias">
+                        <div class="container__estancias">
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bath"></i>3 baños</p>
+                        </div>
+                        <div class="container__estancias"> 
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bed"></i>6 habitaciones</p>
+                        </div>
+                    </div>
+                    <div class="container__text">
+                        <p class="text__house">Casa</p>
+                        <h3 class="title__house">Serrano House</h3>
+                        <p class="text__house">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="title__house">Más detalles<i class="row fa-solid fa-arrow-right"></i></h4>
+                    </div> 
+                </div>
+            </article>
+            <article class="article__cards">
+                <div class="container__tarjetas">
+                    <img class="img__cards" src="../assets/images/car-4.jpg" alt="">
+                    <div class="card__estancias">
+                        <div class="container__estancias">
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bath"></i>3 baños</p>
+                        </div>
+                        <div class="container__estancias"> 
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bed"></i>4 habitaciones</p>
+                        </div>
+                    </div>
+                    <div class="container__text">
+                        <p class="text__house">Penthouse</p>
+                        <h3 class="title__house">Rubio Apartaments</h3>
+                        <p class="text__house">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="title__house">Más detalles<i class="row fa-solid fa-arrow-right"></i></h4>
+                    </div> 
+                </div>
+                <div class="container__tarjetas">
+                    <img class="img__cards" src="../assets/images/car-2.png" alt="">
+                    <div class="card__estancias">
+                        <div class="container__estancias">
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bath"></i>6 baños</p>
+                        </div>
+                        <div class="container__estancias"> 
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bed"></i>9 habitaciones</p>
+                        </div>
+                    </div>
+                    <div class="container__text">
+                        <p class="text__house">Casa</p>
+                        <h3 class="title__house">Serrano House</h3>
+                        <p class="text__house">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="title__house">Más detalles<i class="row fa-solid fa-arrow-right"></i></h4>
+                    </div> 
+                </div>
+                <div class="container__tarjetas">
+                    <img class="img__cards" src="../assets/images/car-6.jpg" alt="">
+                    <div class="card__estancias">
+                        <div class="container__estancias">
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bath"></i>4 baños</p>
+                        </div>
+                        <div class="container__estancias"> 
+                            <p class="text__estancias"><i class="estancias fa-solid fa-bed"></i>6 habitaciones</p>
+                        </div>
+                    </div>
+                    <div class="container__text">
+                        <p class="text__house">Penthouse</p>
+                        <h3 class="title__house">Rubio Apartaments</h3>
+                        <p class="text__house">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="title__house">Más detalles<i class="row fa-solid fa-arrow-right"></i></h4>
+                    </div> 
+                </div>
+            </article> 
+        </main>
+        <section class="section__opiniones">
+            <div class="container__opiniones">
+                <h4 class="opiniones__h4">Opiniones</h4>
+                <article class="container__tarjetasopi">
+                    <div class="tarjtas__opiniones">
+                        <p class="text__opiniones">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati alias illo a deleniti illum. Architecto vel at error necessitatibus officia minus asperiores voluptatum quaerat cum eligendi perferendis alias, consectetur voluptatibus.</p>
+                        <p class="name__opiniones">Julian</p>
+                        <img class="img__opiniones" src="../assets/images/avatar_opi2.png" alt="">
+                    </div>
+                    <div class="tarjtas__opiniones">
+                        <p class="text__opiniones">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati alias illo a deleniti illum. Architecto vel at error necessitatibus officia minus asperiores voluptatum quaerat cum eligendi perferendis alias, consectetur voluptatibus.</p>
+                        <p class="name__opiniones">Adrián</p>
+                        <img class="img__opiniones" src="../assets/images/avatar_opi.png" alt="">
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
     <footer class="footer">
         <section class="container__footer">
             <article class="article__footer">

@@ -194,6 +194,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    
 }
 .div__number{
     display: flex;
@@ -234,7 +236,7 @@ body{
     top: 120px;
 }
 .form__contact{
-    padding: 20px 30px;
+    padding: 20px 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -254,6 +256,7 @@ body{
 }
 .input__contacto--email{
     padding: 10px;
+    width: 350px;
 }
 .input__contacto--email::placeholder{
     color: #566A74;

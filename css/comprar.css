@@ -6,11 +6,127 @@
     font-family: rmedium;
     src: url(../assets/fonts/Roboto-Medium.ttf);
 }
-.header{
-    background: none; /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/comprar.png); */
-    background-repeat: no-repeat;
-	background-size: cover;
-    height: 900px;
-    width: 100%;
+.container{
+    background-color: #ffffff;
+    margin: 100px 0px 0px;
+}
+.container__main{
+    width: 1080px;
+    margin: 0 auto;
+}
+.main__title{
+    font-size: 2rem;
+    font-family: rmedium;
+    color: #65A681;
+}
+
+/* CARDS */
+.article__cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img__cards{
+    width: 300px;
     position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: all 1s ease;
+}
+.img__cards:hover{
+    transform: scale(1.1);
+}
+.container__tarjetas{
+    position: relative;
+    margin: 20px 0px;
+    border: 1px solid #65A681;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+.container__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 260px;
+    margin: 20px 10px 0px;
+}
+.title__house{
+    color: #65A681;
+    font-family: rmedium;
+}
+.text__house{
+    color: #65A681;
+    font-family: rlight;
+}
+.row{
+    padding: 0px 0px 0px 10px;
+}
+.card__estancias{
+    background-color: #ffffff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    top: 160px;
+    left: 12px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container__estancias{
+    margin: 0px 5px
+}
+.text__estancias{
+    color: #65A681;
+    padding: 0px 10px;
+    font-family: rlight;
+}
+.estancias{
+    padding: 0px 5px;
+}
+
+/* OPINIONES */
+.section__opiniones{
+    background-color: #EBF2E3;
+}
+.container__opiniones{
+    width: 1080px;
+    margin: 0 auto;
+}
+.opiniones__h4{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    font-size: 2rem;
+    font-family: rmedium;
+    color: #65A681;
+}
+.container__tarjetasopi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px 20px;
+}
+.tarjtas__opiniones{
+    background-color: #ffffff;
+    width: 450px;
+    height: 200px;
+    padding: 60px 20px 0px;
+    text-align: center;
+    position: relative;
+    margin: 0px 0px 20px;
+}
+.text__opiniones{
+    color: #65A681;
+    font-family: rlight;
+}
+.name__opiniones{
+    color: #65A681;
+    font-family: rmedium;
+}
+.img__opiniones{
+    position: absolute;
+    width: 80px;
+    top: -35px;
+    left: 210px;
 }
