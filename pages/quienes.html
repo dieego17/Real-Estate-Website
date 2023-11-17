@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="../css/header_quienes.css">
     <link rel="stylesheet" href="../css/quienes.css">
     <link rel="stylesheet" href="../css/responsive.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/footer_quienes.css">
     <link rel="shortcut icon" href="../assets/images/casa.png" type="image/x-icon">
     <!-- link para favicons -->
     <script src="https://kit.fontawesome.com/3ed6284a33.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="contenedor">
+        <!-- HEADER -->
         <header class="header">
             <section class="header__section">
                 <article class="header__article">
@@ -41,8 +42,9 @@
                 <a href="../index.html" class="button__log" id="button__log">Iniciar Sesión</a>
             </section>
         </header>
-        
+        <!-- MAIN -->
         <main class="main">
+            <!-- IMAGEN PRINCIPAL -->
             <section class="section__imagen">
                 <article class="article__imagen">
                     <img class="article__img" src="../assets/images/propi.png" alt="">
@@ -58,6 +60,7 @@
                     </div>
                 </article>
             </section>
+            <!-- BENEFICIOS -->
             <section class="section__beneficios">
                 <article class="article__title">
                     <h4 class="h4__beneficios">Beneficios que obtienes utilizando nuestros servicios</h4>
@@ -86,6 +89,7 @@
                     </article>
                 </div>
             </section>
+            <!-- EXPERIENCES -->
             <section class="section__experience">
                 <article class="experiencies__img">
                     <img class="img__exp" src="../assets/images/experiencias.jpeg" alt="">
@@ -99,24 +103,37 @@
                             <p class="text">Años de Experiencia</p>
                         </div>
                         <div class="div__number">
-                            <p class="number">17</p>
-                            <p class="text">Años de Experiencia</p>
+                            <p class="number">85</p>
+                            <p class="text">Premios Ganados</p>
                         </div>
                         <div class="div__number">
-                            <p class="number">17</p>
-                            <p class="text">Años de Experiencia</p>
+                            <p class="number">+1000</p>
+                            <p class="text">Casas Vendidas</p>
                         </div>
                     </div>
                 </article>
             </section>
+            <!-- FORM CONTACT -->
+            <section class="section__contact">
+                <img class="contact__img" src="../assets/images/espera.jpg" alt="">
+                <article class="article__contact">
+                    <form class="form__contact" action="">
+                        <label class="label__contact" for="Correo">Correo</label>
+                        <input class="input__contacto input__contacto--email" type="text" placeholder="Email">
+                        <label class="label__contact" for="texto">Texto</label>
+                        <textarea class="input__contacto" name="" id="" cols="40" rows="10"></textarea>
+                        <button class="button__contacto">Enviar</button>
+                    </form>
+                </article>
+            </section>
         </main>
-    
+        <!-- FOOTER -->
         <footer class="footer">
             <section class="container__footer">
                 <article class="article__footer">
                     <div class="div__contact">
                         <input class="input__contact" type="email" name="email" id="email" placeholder="Email">
-                        <a class="button__contact" href="./index.html">Suscribirse</a>
+                        <a class="button__contact" href="../pages/quienes.html">Suscribirse</a>
                     </div>
                     <div class="div__contact">
                         <a href="https://www.facebook.com/?locale=es_ES"><i class="rrss fa-brands fa-facebook"></i></a>
