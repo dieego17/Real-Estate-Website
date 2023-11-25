@@ -118,16 +118,39 @@
     font-size: rlight;
 }
 
-.buscar{
-    margin: 35px 0px 0px;
-    background-color:#6D5736;
-    color: #ffffff;
-    font-size: 1.2rem;
+
+.buscar {
     text-decoration: none;
-    font-size: rlight;
+    color: #6D5736;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 33px 0px 0px;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+    overflow: hidden;
 }
-.buscar:hover{
-    background-color: rgb(98, 78, 49);
+
+.buscar:hover {
+    color: white;
+}
+
+.buscar::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #6D5736;
+    transition: transform 0.6s;
+    z-index: -1;
+    transform: translateY(100%);
+}
+
+.buscar:hover::after {
+    transform: translateY(0);
 }
 
 /* VENTANA LOG IN */

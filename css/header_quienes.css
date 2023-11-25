@@ -7,38 +7,35 @@
     src: url(../assets/fonts/Roboto-Medium.ttf);
 }
 .header{
+    position: sticky;
     width: 100%;
-    position: relative;
+    background-color: #ffffff;
+    border-radius: 5px;
 }
-/* HEADER */
+.header__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
 .title__link{
     text-decoration: none;
     color: #566A74;
 }
-
-.header__section{
+.article__header{
+    font-family: rmedium;
+    font-size: 1.2rem;
+}
+.rubio__text{
+    font-size: 0.7rem;
+}
+    
+.header__ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #566A74;
-}
-.header__article{
-    font-family: rmedium;
-}
-
-.article__header{
-    font-size: 1rem;
-}
-.rubio__text{
-    font-size: 0.5rem;
-}
-.header__ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .header__list{
-    padding: 0px 5px;
     list-style-type: none;
     transition: transform 1s ease;
 }
@@ -46,32 +43,25 @@
     transform: scale(1.2);
     text-decoration: underline;
 }
-
 .header__link{
     text-decoration: none;
-    color: #566A74;
     font-family: rlight;
-    font-size: 0.9rem;
-}
-.header__link:hover{
-    color: #566A74; 
+    padding: 0px 10px;
+    color: #566A74;
+    font-size: 1.1rem;
 }
 .header__article--hambur{
     display: none;
 }
 .header__hambur{
-    color: #566A74;
     font-size: 2rem;
+    color: #566A74;
     transition: transform 1s ease;
 }
 .header__hambur:hover{
     transform: scale(1.2);
     color: #566A74;
 }
-.colorMarron{
-    color: #566A74;
-}
-    
 
 /* VENTANA LOG IN */
 .displaynone{

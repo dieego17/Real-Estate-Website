@@ -1,18 +1,16 @@
 .footer{
     background-color: #566A74;
     width: 100%;
-    margin: 0px 0px 0px;
     border-radius: 5px;
 }
-.container__footer{
-    width: 1080px;
-    margin: 0 auto;
-}
+
 /* RRSS AND EMAIL */
 .article__footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0px;
 }
 .input__contact{
     width: 210px;
@@ -45,8 +43,6 @@
     padding: 0px 5px;
     font-size: 1.1rem;
 }
-
-
 .container__contact{
     display: flex;
     align-items: center;
@@ -61,22 +57,27 @@
 .container__table{
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .table{
     margin: 20px 0px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .table__th{
     color: #ffffff;
     font-family: rmedium;
     font-size: 1.3rem;
-    padding: 10px 80px;
+    padding: 10px 20px;
 }
 .table__td{
     font-family: rlight;
     color: #ffffff;
     font-size: 1.1rem;
-    padding: 5px 0px;
+    padding: 5px 10px;
 }
 .table__link, .table__link1{
     color: #ffffff;

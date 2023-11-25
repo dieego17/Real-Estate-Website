@@ -116,6 +116,11 @@
     margin: 0px 10px;
     border-radius: 80px;
     font-size: 1.3rem;
+    transition: all 1s ease;
+}
+.font__cards:hover{
+    background-color: #65A681;
+    color: #ffffff;
 }
 .street__card{
     color: #ffffff;

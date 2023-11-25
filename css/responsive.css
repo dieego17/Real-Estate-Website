@@ -1,54 +1,41 @@
 @media screen and (min-width: 600px) {
-    .article__header{
-        font-size: 1.3rem;
-    }
-    .rubio__text{
-        font-size: 0.8rem;
-    }
-    .header__link{
-        font-size: 1.1rem;
-        padding: 0px 3px;
-    }
+    
        
 }
 @media screen and (min-width: 768px) {
-    .header__section{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 15px;
-    }
     .header__article--hambur{
         display: flex;
     }
-    .header__hambur{
-        color: #566A74;
-        font-size: 1.5rem;
-        transition: transform 1s ease;
-    }
-    .header__hambur:hover{
-        transform: scale(1.2);
-        color: #566A74;
-    }
-    .article__header{
-        font-size: 1.6rem;
-    }
-    .rubio__text{
-        font-size: 0.9rem;
-    }
-    .header__link{
-        font-size: 1.3rem;
-    }
-    .header__hambur{
-        font-size: 1.6rem;
-    }
-    .section__contact{
+    .experiencies__img{
         display: flex;
+    }
+    .table__td{
+        padding: 5px 20px;
     }
 }
 @media screen and (min-width: 1024px) {
-    .header__section{
-        margin: 0px 20px;
+    .container__text{
+        display: flex;
+        flex-direction: column;
+    }
+    .container__row{
+        display: flex;
+        flex-direction: column;
+    }
+    .container__cuadrado{
+        display: flex;
+    }
+    .table__td{
+        padding: 5px 70px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .section__contact{
+        display: flex;
+    }
+    .contactanos{
+        display: flex;
+        justify-content: center;
     }
     .article__header{
         font-size: 2.5rem;
@@ -59,43 +46,25 @@
     .header__link{
         font-size: 1.5rem;
     }
-    .header__hambur{
-        font-size: 2rem;
+    .table__td{
+        padding: 5px 100px;
     }
-
-    .experiencies__img{
+    .casita__inicio{
         display: flex;
-        width: 50%;
-        margin: 0px 0px 0px 100px;
+        animation-name: movCasa;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
     }
-    .img__exp{
-        width: 350px;
-        border-radius: 5px;
-        transition: all 1s ease;
-    }
-    .img__exp:hover{
-        transform: scale(1.1);
-    }
-    
-    .experiencies__text{
-        width: 40%;
-        margin: 0px 200px 0px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    @keyframes movCasa {
+        0%{
+            transform: translateY(-1000px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+     
     }
 }
-@media screen and (min-width: 1200px) {
-    .container__text{
-        display: block;
-    }
-    .container__row{
-        display: block;
-    }
-    .container__cuadrado{
-        display: block;
-    }
 
-}
 
 

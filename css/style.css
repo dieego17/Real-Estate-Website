@@ -6,6 +6,9 @@
     font-family: rmedium;
     src: url(../assets/fonts/Roboto-Medium.ttf);
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* PARTE DE DUBAI */
 .container__dubai{
@@ -145,4 +148,25 @@
 }
 .botton__more:hover{
     letter-spacing: 5px;
+}
+.casita__inicio{
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    z-index: 99;
+    animation-name: movCasa;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes movCasa {
+    0%{
+        transform: translateY(-1000px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+ 
+}
+.img__inicio{
+    width: 70px;
 }
